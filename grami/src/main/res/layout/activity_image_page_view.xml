@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <Button
+            android:id="@+id/pageView_skip"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:text="SKIP"
+            android:onClick="onClick"
+            android:background="#50dcffa9"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/pageView_back"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/pageback"
+            android:onClick="onClick"
+            android:visibility="invisible"/>
+
+
+        <ImageButton
+            android:id="@+id/pageView_front"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/pagefront"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>

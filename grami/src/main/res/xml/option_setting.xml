@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="option_key">
+    <PreferenceCategory android:title="처음 스토리와 설명 다시보기">
+        <Preference
+            android:summary="처음 스토리와 설명을 다시 봅니다"
+            android:title="처음 스토리와 설명 다시보기">
+            <intent
+                android:targetClass="llg.grami.FirstPageActivity"
+                android:targetPackage="llg.grami" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="어플 및 개발자 정보">
+        <Preference
+            android:summary="어플 및 개발자 정보를 확인합니다"
+            android:title="어플 및 개발자 정보"
+            android:key="1">
+            <intent
+                android:targetClass="llg.grami.InfoActivity"
+                android:targetPackage="llg.grami" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

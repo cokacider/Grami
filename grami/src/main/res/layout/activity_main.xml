@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="llg.grami.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/shop_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <llg.grami.MainView
+            android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/main_belowbar_background">
+
+        <ImageButton
+            android:id="@+id/btnShop"
+            android:layout_marginRight="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shop"
+            android:onClick="onClick"/>
+        <ImageButton
+            android:id="@+id/btnInventory"
+            android:layout_marginRight="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/inventory"
+            android:onClick="onClick"/>
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/play"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_benice"
+        android:title="멋부리기"/>
+    <item
+        android:id="@+id/popup_minigame"
+        android:title="놀아주기" />
+    <item
+        android:id="@+id/popup_exercise"
+        android:title="운동량보기" />
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Grami.iml" filepath="$PROJECT_DIR$/Grami.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grami/grami.iml" filepath="$PROJECT_DIR$/grami/grami.iml" />
+    </modules>
+  </component>
+</project>

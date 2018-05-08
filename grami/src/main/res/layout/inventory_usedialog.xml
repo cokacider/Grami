@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/inventoryusedialog_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:id="@+id/inventoryusedialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/inventoryusedialog_image"
+            android:layout_toRightOf="@+id/inventoryusedialog_image"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/inventoryusedialog_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inventoryusedialog_name"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@+id/inventoryusedialog_image"
+            android:textSize="15dip" />
+        <TextView
+            android:id="@+id/inventoryusedialog_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inventoryusedialog_num"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@+id/inventoryusedialog_image"
+            android:textColor="#545454"
+            android:textSize="13dip" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/inventoryusedialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="취소!"/>
+        <Button
+            android:id="@+id/inventoryusedialog_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="쓸게!"/>
+    </LinearLayout>
+
+</LinearLayout>
