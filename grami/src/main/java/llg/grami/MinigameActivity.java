@@ -266,25 +266,25 @@ public class MinigameActivity extends AppCompatActivity {
 
     private void initList() {
         // 첫 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.rock),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 1", " 나랑 내기 할렝?","RspActivity.class", 0) ;
         // 두 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.heart),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 2", " 같이 수도쿠 해볼렝?", "SudroidActivity.class", 5) ;
         // 세 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.question_mark),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 3", " 퀴즈문제 풀어보자!","QuizActivity.class", 10) ;
         // 네 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.warm),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 4", " 지렁이 먹이 먹어서 길게 키우자!","SnakeActivity.class", 15) ;
         // 네 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.puzzle),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 5", " 퍼즐맞추기! 재밌겠지?","Activity.class", 20) ;
         // 네 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.number),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 6", " 반응 속도 빨라용?","Activity.class", 25) ;
         // 네 번째 아이템 추가.
-        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.basketball),
+        listAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.coin),
                 " 에피소드 7", " 공놀이가 제일 재밌어!","Activity.class", 30) ;
 
         listAdapter.notifyDataSetChanged();

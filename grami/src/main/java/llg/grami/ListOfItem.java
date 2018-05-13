@@ -63,25 +63,25 @@ public class ListOfItem {
         // (이름, 가격, 행복도, 체력, 포만감, 카테고리, 이미지파일 이름)
 
         Add_Item("물약", 140, 10, 30 , 0 , "etc", "coin");
-        Add_Item("스팀팩", 160, 15, 50, 10, "etc","steampack");
-        Add_Item("알약", 130, 10, 25, 0, "etc","circledrug");
-        Add_Item("야구공", 80, 12, -5, 0, "etc", "baseball");
-        Add_Item("농구공", 100, 15, -5, 0, "etc", "basketball");
-        Add_Item("럭비공", 110, 17, -5, 0, "etc", "ruckbyball");
-        Add_Item("축구공", 120, 20, -5, 0, "etc", "soccerball");
-        Add_Item("연필", 70, 10, 5, 0, "etc", "pencil");
+        Add_Item("스팀팩", 160, 15, 50, 10, "etc","coin");
+        Add_Item("알약", 130, 10, 25, 0, "etc","coin");
+        Add_Item("야구공", 80, 12, -5, 0, "etc", "coin");
+        Add_Item("농구공", 100, 15, -5, 0, "etc", "coin");
+        Add_Item("럭비공", 110, 17, -5, 0, "etc", "coin");
+        Add_Item("축구공", 120, 20, -5, 0, "etc", "coin");
+        Add_Item("연필", 70, 10, 5, 0, "etc", "coin");
 
-        Add_Item("바나나", 70, 5, 0, 15 , "food", "banana");
-        Add_Item("피자", 75, 6, 0, 20 , "food", "pizza");
-        Add_Item("라면", 40, 3, 2, 10, "food", "ramyeon");
-        Add_Item("딸기", 30, 4, 0, 10, "food", "strawberry");
-        Add_Item("햄버거", 60, 0, 0, 12, "food", "hamburger");
-        Add_Item("아이스크림", 30, 2, 0, 10, "food","icecream");
-        Add_Item("계란후라이", 50, 5, 0, 13, "food","egg");
-        Add_Item("오렌지", 40, 3, 0, 10, "food","orange");
-        Add_Item("치킨", 80, 8, 0, 22, "food","chicken");
-        Add_Item("라즈베리", 60, 2, 0, 10, "food","raspberry");
-        Add_Item("수박", 50, 6, 0, 12, "food","watermelon");
+        Add_Item("바나나", 70, 5, 0, 15 , "food", "coin");
+        Add_Item("피자", 75, 6, 0, 20 , "food", "coin");
+        Add_Item("라면", 40, 3, 2, 10, "food", "coin");
+        Add_Item("딸기", 30, 4, 0, 10, "food", "coin");
+        Add_Item("햄버거", 60, 0, 0, 12, "food", "coin");
+        Add_Item("아이스크림", 30, 2, 0, 10, "food","coin");
+        Add_Item("계란후라이", 50, 5, 0, 13, "food","coin");
+        Add_Item("오렌지", 40, 3, 0, 10, "food","coin");
+        Add_Item("치킨", 80, 8, 0, 22, "food","coin");
+        Add_Item("라즈베리", 60, 2, 0, 10, "food","coin");
+        Add_Item("수박", 50, 6, 0, 12, "food","coin");
 
         Add_Item("기본 옷", 100, 0, 0, 0, "cloth", "basict");
         Add_Item("파란 옷", 150, 0, 0 , 0, "cloth", "bluetshirt");
